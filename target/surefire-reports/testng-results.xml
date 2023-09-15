@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-14T20:03:17 IST" name="Suite121" finished-at="2023-09-14T20:03:24 IST" duration-ms="7004">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T20:03:17 IST" name="Test121" finished-at="2023-09-14T20:03:24 IST" duration-ms="7004">
+      <class name="Day11.DataProviderDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day11.DataProviderDemo@1aafa419]" started-at="2023-09-14T20:03:17 IST" name="setup" finished-at="2023-09-14T20:03:18 IST" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:Day11.DataProviderDemo@1aafa419]" started-at="2023-09-14T20:03:18 IST" name="testLogin" data-provider="dp" finished-at="2023-09-14T20:03:23 IST" duration-ms="5129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[merry@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Day11.DataProviderDemo@1aafa419]" started-at="2023-09-14T20:03:23 IST" name="tearDown" finished-at="2023-09-14T20:03:24 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Day11.DataProviderDemo -->
+    </test> <!-- Test121 -->
+  </suite> <!-- Suite121 -->
+  <suite started-at="2023-09-14T20:03:04 IST" name="Suite12" finished-at="2023-09-14T20:03:17 IST" duration-ms="12447">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T20:03:04 IST" name="Test12" finished-at="2023-09-14T20:03:17 IST" duration-ms="12447">
+      <class name="Day11.mercurylogin">
+        <test-method is-config="true" signature="open_browser()[pri:0, instance:Day11.mercurylogin@36bc55de]" started-at="2023-09-14T20:03:04 IST" name="open_browser" finished-at="2023-09-14T20:03:07 IST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method signature="Capture_home_page()[pri:0, instance:Day11.mercurylogin@36bc55de]" started-at="2023-09-14T20:03:07 IST" name="Capture_home_page" finished-at="2023-09-14T20:03:07 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capture_home_page -->
+        <test-method signature="Open_URL()[pri:0, instance:Day11.mercurylogin@36bc55de]" started-at="2023-09-14T20:03:07 IST" name="Open_URL" finished-at="2023-09-14T20:03:13 IST" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_URL -->
+        <test-method signature="enter_Data()[pri:0, instance:Day11.mercurylogin@36bc55de]" started-at="2023-09-14T20:03:13 IST" name="enter_Data" finished-at="2023-09-14T20:03:16 IST" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Data -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:Day11.mercurylogin@36bc55de]" started-at="2023-09-14T20:03:16 IST" name="tear_down" finished-at="2023-09-14T20:03:17 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- Day11.mercurylogin -->
+    </test> <!-- Test12 -->
+  </suite> <!-- Suite12 -->
+</testng-results>
