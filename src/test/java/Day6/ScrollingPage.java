@@ -25,15 +25,15 @@ public class ScrollingPage {
 				
 				//Scroll page down by pixel;
 				
-//			js.executeScript("window.scrollBy(0,3000)","");	
-//		System.out.println(js.executeScript("return window.pageYOffset;", ""));
+			js.executeScript("window.scrollBy(0,3000)","");	
+		System.out.println(js.executeScript("return window.pageYOffset;", ""));
 //		
 		
 		//Scroll down the page till the required element
 		
-//	WebElement India=driver.findElement(By.xpath("//img[@alt='Flag of India']"));
-//	js.executeScript("arguments[0].scrollIntoView();", India);
-//	System.out.println(js.executeScript("return window.pageYOffset;", ""));
+	WebElement India=driver.findElement(By.xpath("//img[@alt='Flag of India']"));
+	js.executeScript("arguments[0].scrollIntoView();", India);
+	System.out.println(js.executeScript("return window.pageYOffset;", ""));
 	
 	// Scroll down till end of the document
 			

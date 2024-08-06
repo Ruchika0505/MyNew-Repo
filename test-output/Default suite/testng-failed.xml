@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testLogin"/>
+          <include name="testLogin" invocation-numbers="0"/>
         </methods>
       </class> <!-- Day11.DataProviderDemo -->
     </classes>

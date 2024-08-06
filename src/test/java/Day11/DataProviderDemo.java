@@ -13,7 +13,7 @@ public class DataProviderDemo {
 	@BeforeClass
 	void setup()
 	{
-		driver=new ChromeDriver();
+		 driver=new ChromeDriver();
 	}
 	
 	@Test(dataProvider="dp")
@@ -37,14 +37,14 @@ public class DataProviderDemo {
 		driver.close();
 	}
 	
-	@DataProvider(name="dp",indices= {0})
+	@DataProvider(name="dp",indices= {0,3})
 	String[][] loginData()
 	{
 		
-		String[][] data= { {"merry@gmail.com","test123"},
+		String[][] data= {{"merry@gmail.com","test123"} ,
 				           {"abc@gmail.com","abc123"},
 				           {"abc@gmail.com","test@123"},
-				           {"John@gmail.com","test123"}
+				           {"david@gmail.com","test123"}
 				          };
 		
 		return data;

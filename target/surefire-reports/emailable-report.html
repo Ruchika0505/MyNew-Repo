@@ -9,17 +9,24 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite121</th></tr>
-<tr><td><a href="#t0">Test121</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,004</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test121</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">10,264</td><td></td><td></td></tr>
 <tr><th colspan="8">Suite12</th></tr>
-<tr class="stripe"><td><a href="#t1">Test12</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,447</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">19,451</th><th colspan="2"></th></tr>
+<tr class="stripe"><td><a href="#t1">Test12</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27,158</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">37,422</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite121</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test121 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Day11.DataProviderDemo</td><td><a href="#m0">testLogin</a></td><td rowspan="1">1694701998829</td><td rowspan="1">5129</td></tr></tbody>
-<tbody><tr><th colspan="4">Suite12</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test12 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Day11.mercurylogin</td><td><a href="#m1">Capture_home_page</a></td><td rowspan="1">1694701987516</td><td rowspan="1">35</td></tr><tr class="passedeven"><td><a href="#m2">Open_URL</a></td><td rowspan="1">1694701987553</td><td rowspan="1">5954</td></tr><tr class="passedeven"><td><a href="#m3">enter_Data</a></td><td rowspan="1">1694701993507</td><td rowspan="1">3388</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite121</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test121 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Day11.DataProviderDemo</td><td><a href="#m0">testLogin</a></td><td rowspan="2">1722853790064</td><td rowspan="2">1230</td></tr><tr class="failedeven"><td><a href="#m1">testLogin</a></td></tr></tbody>
+<tbody><tr><th colspan="4">Suite12</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test12 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Day11.mercurylogin</td><td><a href="#m2">Capture_home_page</a></td><td rowspan="1">1722853769214</td><td rowspan="1">252</td></tr><tr class="passedeven"><td><a href="#m3">Open_URL</a></td><td rowspan="1">1722853769470</td><td rowspan="1">7953</td></tr><tr class="passedeven"><td><a href="#m4">enter_Data</a></td><td rowspan="1">1722853777423</td><td rowspan="1">3218</td></tr></tbody>
 </table>
-<h2>Test121</h2><h3 id="m0">Day11.DataProviderDemo#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>merry@gmail.com</td><td>test123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test12</h2><h3 id="m1">Day11.mercurylogin#Capture_home_page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Day11.mercurylogin#Open_URL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Day11.mercurylogin#enter_Data</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test121</h2><h3 id="m0">Day11.DataProviderDemo#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>david@gmail.com</td><td>test123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [nopCommerce demo store. Login] but found [nopCommerce demo store]
+	at Day11.DataProviderDemo.testLogin(DataProviderDemo.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Day11.DataProviderDemo#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>merry@gmail.com</td><td>test123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [nopCommerce demo store. Login] but found [nopCommerce demo store]
+	at Day11.DataProviderDemo.testLogin(DataProviderDemo.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test12</h2><h3 id="m2">Day11.mercurylogin#Capture_home_page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Day11.mercurylogin#Open_URL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Day11.mercurylogin#enter_Data</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

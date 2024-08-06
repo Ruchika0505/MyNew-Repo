@@ -28,6 +28,8 @@ public class HandleHiddenDropDown {
 	
 	List <WebElement>options =	driver.findElements(By.xpath("//div[@role='listbox']//span"));
 		
+	System.out.println(options.size());
+	
 	for(WebElement op:options)
 	{
 		//System.out.println("The hidden options are:"  +op.getText());

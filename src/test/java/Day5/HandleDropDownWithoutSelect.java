@@ -19,6 +19,7 @@ public class HandleDropDownWithoutSelect {
 	
 	driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
 	driver.manage().window().maximize();
+	
 	driver.findElement(By.xpath("//button[@title='HTML, CSS']")).click();
 	
 	List<WebElement> options=driver.findElements(By.xpath("//ul[contains(@class,'multiselect')]//label"));
